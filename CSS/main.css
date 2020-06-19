@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .container {
+    display: flex;
+    border: 1px solid black;
+    height: 800px;
+    grid-template-rows: 100px 300px;
+    ;
+  }
+  .box-left{
+    flex: 50%;
+    background-color: beige;
+  }
+  .box-right{
+    flex:50%;
+    background-color: pink;
+    display: flex;
+    flex-direction:column;
+  }
+  .box-upright{
+    flex:auto;
+    background-color:#edf2f4;
+    
+    
+  }
+  .box-downright{
+    flex: auto;
+    background-color:#ffb4a2;
+  
+  }
+  .dental-chair{
+    height:400px;
+    margin:auto;
+  }
+  .navbar{
+    display: flex;
+    flex: auto;
+    
+  }
+  .navbar .logo{
+    margin-top: 10px ;
+    flex:auto;
+    color: dark;
+    font-size: 50px;
+  }
+  .navbar .logo:hover{
+  
+    color: green;
+    font-size: 55px;
+  }
+  ul{
+    display: flex;
+    
+  }
+  li{
+    display: inline;
+    float:left;
+    padding: 8px;
+    margin:5px;
+    border:1px solid black;
+  }
+  li a {
+    text-decoration:none;
+    color:black;
+    margin:0px;
+  }
+  .box-right .navbar li{
+     border-radius:5px;
+     color:red;
+     
+  }
+  .navbar ul :hover{
+    background-color:green;
+    transform: translate(0, -3px);
+    color: white;
+   
+  }
+  
